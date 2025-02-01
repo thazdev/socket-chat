@@ -1,4 +1,4 @@
-# Realtime Chat API - Node.js, Express, Prisma e Socket.io
+# Socket Chat API - Node.js, Express, Prisma e Socket.io
 
 Bem-vindo à demonstração prática de uma aplicação de chat em tempo real, onde exploramos a integração perfeita entre WebSockets e uma API REST moderna. Este projeto serve como um guia hands-on para desenvolvedores que desejam compreender a implementação de comunicação bidirecional em suas aplicações Node.js.
 
@@ -53,7 +53,7 @@ Cada mensagem está vinculada a um usuário e a uma sala. O objetivo é demonstr
 ## Estrutura de Pastas
 
 ```
-realtime-chat
+socket-chat
 ├── prisma
 │   ├── migrations/
 │   │   └── schema.prisma
@@ -109,7 +109,7 @@ realtime-chat
 
    ```bash
    git clone 
-   cd realtime-chat
+   cd socket-chat
    ```
 
 2. **Instalar dependências:**
@@ -127,7 +127,7 @@ realtime-chat
    - Exemplo:
 
      ```plaintext
-     DATABASE_URL=mysql://root:@localhost:3306/realtime_chat
+     DATABASE_URL=mysql://root:@localhost:3306/socket-chat
      PORT=3000
      ```
 
